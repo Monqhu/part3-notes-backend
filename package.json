@@ -1,9 +1,14 @@
 {
+<<<<<<< HEAD
   "name": "noteapp",
+=======
+  "name": "notebackend",
+>>>>>>> 0342b1fcf25b44c7ff86d9cd7ebfc8ba7edcd848
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "start": "node index.js",
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,13 +16,26 @@
     "deploy": "git push heroku main",
     "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push && npm run deploy",    
     "logs:prod": "heroku logs --tail"
+=======
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+>>>>>>> 0342b1fcf25b44c7ff86d9cd7ebfc8ba7edcd848
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "express": "^4.17.3"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
+=======
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+>>>>>>> 0342b1fcf25b44c7ff86d9cd7ebfc8ba7edcd848
   }
 }
